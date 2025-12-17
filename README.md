@@ -1,7 +1,5 @@
 <div align="center">
-  <br />
-  <img src="/public/assets/readme/Landingpage.png" alt="Parth Sharma Portfolio - Modern Next.js Portfolio" width="100%">
-  <br />
+ 
 
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
