@@ -47,8 +47,6 @@ Welcome to my modern, interactive portfolio built with **Next.js 14**, **TypeScr
 - Resume download functionality
 
 ### 🧩 **Bento Grid Layout**
-<img src="/public/assets/readme/bentogrdi.png" alt="Modern Bento Grid Layout" width="600">
-
 - Modern CSS Grid implementation
 - Interactive hover effects and animations
 - Responsive design across all screen sizes
