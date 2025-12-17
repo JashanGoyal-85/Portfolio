@@ -233,7 +233,7 @@ npm start
 Create a `.env.local` file for environment variables:
 ```env
 NEXT_PUBLIC_SITE_URL=https://your-domain.com
-NEXT_PUBLIC_GITHUB_USERNAME=ksparth12
+NEXT_PUBLIC_GITHUB_USERNAME=JashanGoyal-85
 ```
 
 ### **Customization**
@@ -251,7 +251,7 @@ NEXT_PUBLIC_GITHUB_USERNAME=ksparth12
 
 ---
 
-## <a name="connect">🤝 Connect with Parth</a>
+## <a name="connect">🤝 Connect with Jashan</a>
 
 <div align="center">
 
@@ -259,18 +259,18 @@ NEXT_PUBLIC_GITHUB_USERNAME=ksparth12
 
 I'm always excited to work on innovative projects and collaborate with fellow developers.
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ksparth12)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ksparth12)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ksparth12)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ksparth12@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JashanGoyal-85)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jashan-goyal)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/jashangoyal85)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:goyaljashan85@gmail.com)
 
-**📧 Email**: ksparth12@gmail.com  
+**📧 Email**: goyaljashan85@gmail.com  
 **🌐 Portfolio**: [View Live Portfolio](https://your-domain.com)  
 **📄 Resume**: [Download Resume](https://drive.google.com/file/d/1d9ALAgqR8nv9rUy-vGRJV8RBR5E19Kop/view?usp=drive_link)
 
 ---
 
 <p><strong>⭐ If you found this portfolio inspiring, please give it a star!</strong></p>
-<p><em>Built with ❤️ by Parth Sharma using Next.js and modern web technologies</em></p>
+<p><em>Built with ❤️ by Jashan Goyal using Next.js and modern web technologies</em></p>
 
 </div>
