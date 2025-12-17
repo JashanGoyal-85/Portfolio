@@ -10,11 +10,11 @@
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
   </div>
 
-  <h1 align="center">🚀 Parth Sharma - Modern Portfolio</h1>
+  <h1 align="center">🚀 Jashan Goyal - Modern Portfolio</h1>
 
    <div align="center">
      <p>A stunning, interactive portfolio showcasing cutting-edge web development skills, modern design patterns, and innovative project implementations.</p>
-     <p>🌟 <strong>Featured Projects:</strong> ThinkForge • DSA Hub • SnapURL</p>
+     <p>🌟 <strong>Featured Projects:</strong> Secure Vault • Polygon Area Calculator • Samadhaan</p>
    </div>
 </div>
 
