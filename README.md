@@ -1,14 +1,4 @@
 <div align="center">
- 
-
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-Framer_Motion-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-  </div>
 
   <h1 align="center">🚀 Jashan Goyal - Modern Portfolio</h1>
 
@@ -65,21 +55,11 @@ Welcome to my modern, interactive portfolio built with **Next.js 14**, **TypeScr
 - Email copy functionality with visual feedback
 
 ### 🚀 **Projects Showcase**
-<img src="/public/assets/readme/projectsection.png" alt="Projects Section" width="600">
-
-- **ThinkForge**: AI-powered project ideas generator
-- **DSA Hub**: Interactive data structures learning platform
-- **SnapURL**: Modern link shortening service
+- **Secure Vault**: Full Stack password manager
+- **Polygon Area Calculator**
+- **Samadhaan**: One Stop Grievance Portal
 - GitHub integration with live project links
 - Detailed project descriptions and tech stacks
-
-### 💬 **Testimonials Section**
-<img src="/public/assets/readme/testimonials.png" alt="Testimonials Section" width="600">
-
-- Animated testimonial cards
-- Smooth scrolling testimonial carousel
-- Professional recommendations display
-- Enhanced credibility section
 
 ### 🎯 **Additional Features**
 - **Responsive Navigation** with smooth scrolling
@@ -115,49 +95,25 @@ Welcome to my modern, interactive portfolio built with **Next.js 14**, **TypeScr
 
 ---
 
-## <a name="showcase">📸 Portfolio Showcase</a>
-
-### 🎨 Landing Page
-<img src="/public/assets/readme/Landingpage.png" alt="Portfolio Landing Page" width="100%">
-
-*Clean, modern design with interactive hero section and smooth animations*
-
-### 📊 Bento Grid Component
-<img src="/public/assets/readme/bentogrdi.png" alt="Bento Grid Layout" width="100%">
-
-*Innovative grid layout showcasing skills and information in an engaging format*
-
-### 🚀 Projects Gallery
-<img src="/public/assets/readme/projectsection.png" alt="Projects Section" width="100%">
-
-*Beautifully designed project cards with hover effects and detailed information*
-
-### 💭 Testimonials
-<img src="/public/assets/readme/testimonials.png" alt="Testimonials Section" width="100%">
-
-*Professional testimonials with smooth animations and modern card design*
-
----
-
 ## <a name="projects">🚀 Featured Projects</a>
 
-### 1. 🧠 **ThinkForge** - AI Project Ideas Generator
+### 1. 🧠 **Secure Vault** - Full Stack Password manager
 ```
-🔗 GitHub: https://github.com/ksparth12/ThinkForge
+🔗 GitHub: https://github.com/JashanGoyal-85/Secure_Vault
 🛠️ Tech: Next.js, React, TypeScript, TailwindCSS
 📝 Description: AI-powered platform generating personalized project ideas for developers
 ```
 
-### 2. 📊 **DSA Hub** - Interactive Learning Platform  
+### 2. 📊 **Polygon Area Calculator**  
 ```
-🔗 GitHub: https://github.com/ksparth12/DSA-HUB
+🔗 GitHub: https://github.com/JashanGoyal-85/Polygon-Area-Calculator
 🛠️ Tech: React, JavaScript, Node.js, TailwindCSS
 📝 Description: Comprehensive platform for learning data structures and algorithms
 ```
 
-### 3. 🔗 **SnapURL** - Link Shortening Service
+### 3. 🔗 **Samadhaan** - One Step Grievance Portal
 ```
-🔗 GitHub: https://github.com/ksparth12/SnapURL-2
+🔗 GitHub: https://github.com/JashanGoyal-85/Samadhaan
 🛠️ Tech: Next.js, React, MongoDB, TailwindCSS
 📝 Description: Modern URL shortener with analytics and QR code generation
 ```
@@ -176,8 +132,8 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ksparth12/Portfolio-Template.git
-cd Portfolio-Template
+git clone https://github.com/JashanGoyal-85/Portfolio.git
+cd Portfolio
 ```
 
 2. **Install dependencies**
