@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+htmaal,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  .variable-proximity {
+    font-family: 'Roboto Flex', 'Inter', system-ui, sans-serif;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    font-variation-settings: 'wght' 400, 'opsz' 9;
+  }
+
+  /* Hamburger menu animations */
+  .hamburger-line {
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Mobile menu slide-in animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu-enter {
+    animation: slideInRight 0.3s ease-out forwards;
+  }
+
+  /* Prevent body scroll when menu is open */
+  .menu-open {
+    overflow: hidden;
+  }
+
+  /* Card animation stroke effect (ApproachCard-style rotating border) */
+  @keyframes rotation_spin {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+  }
+
+  @keyframes floating {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-16px) scale(1.05); }
+  }
+
+  .card-anim {
+    position: relative;
+    overflow: visible;
+  }
+
+  .card-anim::before {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    top: -20%;
+    left: -8%;
+    background: linear-gradient(135deg, rgba(191,114,255,0.12), rgba(59,130,246,0.12));
+    filter: blur(34px);
+    animation: rotation_spin 8000ms linear infinite;
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .card-anim::after {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    bottom: -18%;
+    right: -6%;
+    background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(236,72,153,0.08));
+    filter: blur(28px);
+    animation: floating 5000ms ease-in-out infinite;
+    opacity: 0.85;
+    pointer-events: none;
+  }
+
+  /* Education card decorative circles (match ApproachCard style) */
+  .edu-decor {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .edu-decor .circle {
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(18px);
+    animation: floating 3000ms infinite ease-in-out;
+    opacity: 0.9;
+  }
+
+  .edu-decor .primary {
+    width: 120px;
+    height: 120px;
+    top: 8%;
+    left: 8%;
+    background: rgba(191,114,255,0.12);
+  }
+
+  .edu-decor .secondary {
+    width: 80px;
+    height: 80px;
+    top: 60%;
+    right: 12%;
+    animation-delay: -1000ms;
+    background: rgba(59,130,246,0.10);
+  }
+
+  .edu-decor .accent {
+    width: 60px;
+    height: 60px;
+    top: 36%;
+    right: 44%;
+    animation-delay: -2000ms;
+    background: rgba(16,185,129,0.10);
+  }
+
+  /* Education card with animated stroke border (ApproachCard-style) */
+  .edu-card {
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    background: conic-gradient(from 0deg, #bf72ff, #bf72ff, #bf72ff, transparent, transparent);
+  }
+
+  .edu-card-inner {
+    border-radius: 18px;
+    background: black;
+    position: relative;
+    z-index: 1;
+  }
+}
